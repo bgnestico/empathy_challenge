@@ -4,7 +4,6 @@ import unittest
 
 class TestWeatherApi(unittest.TestCase):
     url = "https://weatherapi-com.p.rapidapi.com/current.json"
-    api_key = "81808780b2msh21c001f0d10c950p11404djsn3b4340cf147c"
 
     headers = {
         "X-RapidAPI-Key": "81808780b2msh21c001f0d10c950p11404djsn3b4340cf147c",
